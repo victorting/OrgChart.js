@@ -812,6 +812,7 @@ This method returns you the display state of the related nodes.
     <td>Possible values: "parent", "children" and "siblings". Specifies the desired relation to return.</td>
   </tr>
 </table>
+
 The returning object will have the next structure:
 ```js
 {
@@ -819,6 +820,7 @@ The returning object will have the next structure:
   "visible":true|false,  //Indicates if the related nodes are visible
 }
 ```
+
 ##### .getRelatedNodes(node, relation)
 This method returns you the nodes related to the specified node
 <table>
